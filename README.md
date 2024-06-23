@@ -16,6 +16,10 @@ JWT Token ile kimlik doğrulaması sağlanmıştır. Kullanıcılar, hesap oluş
 Kiralanacak IHA için Title'da modeli, Contentte ise özelliklerin detaylarının girilerek istek oluşturulur, oluşturan kullanıcının bilgileri ve oluşturma tarihi görülebilir. 
  Ekleme, listeleme ve silme işlemleri gerçekleştirilebilir.
 
+ <img width="878" alt="iha_kiralama" src="https://github.com/EcePekmezci/djangoproject-ha/assets/92378146/1bd65cb2-609b-4d5d-a994-53f7ec7edbca">
+ 
+One to many relationship kullanılmıştır. Her bir kullanıcı birden fazla kiralama yapabilir.
+
 <img width="476" alt="iha_kiralama_ekranı" src="https://github.com/EcePekmezci/djangoproject-ha/assets/92378146/9aef2988-b501-4b7d-9bd9-01276dc9e928">
 
 
