@@ -1,8 +1,8 @@
 # Django ile İHA Kiralama Projesi
-Bu proje frontend React, Backend Django, Database Postgresql kullanılarak oluşturuldu. 
+Bu proje, React ile oluşturulan bir frontend, Django ile oluşturulan bir backend ve PostgreSQL veritabanı kullanılarak geliştirilmiştir.
 ## Özellikler
 ### Üyelik ve Giriş Ekranı 
-JWT Token ile authenticationı sağlanmıştır. Giriş yaparak anasayfaya ulaşmak için öncelikle registration sayfasından hesap oluşturmak gerekir.
+JWT Token ile kimlik doğrulaması sağlanmıştır. Kullanıcılar, hesap oluşturmak için öncelikle kayıt sayfasından giriş yapmalıdır.
 
 **Registration Page**
 
@@ -13,7 +13,8 @@ JWT Token ile authenticationı sağlanmıştır. Giriş yaparak anasayfaya ulaş
 <img width="443" alt="admin_login" src="https://github.com/EcePekmezci/djangoproject-ha/assets/92378146/bd04ef06-6be0-4413-80cb-fb95f8cb96e6">
 
 ### Iha Kiralama Ekranı
-Kiralanacak IHA için Title'da modeli, Contentte ise özelliklerin detaylarının girilerek istek oluşturulur, oluşturan kullanıcının bilgileri ve oluşturma tarihi görülebilir.  Kiralama Özellikleri: İHA, Tarih ve Saat Aralıkları, Kiralayan Üye oluşturuldu. Ekleme, listeleme ve silme işlemleri gerçekleştirilebilir.
+Kiralanacak IHA için Title'da modeli, Contentte ise özelliklerin detaylarının girilerek istek oluşturulur, oluşturan kullanıcının bilgileri ve oluşturma tarihi görülebilir. 
+ Ekleme, listeleme ve silme işlemleri gerçekleştirilebilir.
 
 <img width="476" alt="iha_kiralama_ekranı" src="https://github.com/EcePekmezci/djangoproject-ha/assets/92378146/9aef2988-b501-4b7d-9bd9-01276dc9e928">
 
@@ -24,6 +25,7 @@ Kiralanacak IHA için Title'da modeli, Contentte ise özelliklerin detaylarını
 
 <img width="916" alt="backend_tokenrefresh" src="https://github.com/EcePekmezci/djangoproject-ha/assets/92378146/363de876-e16f-4f6b-a748-6e85eefb0f10">
 
-<img width="951" alt="postgresql" src="https://github.com/EcePekmezci/djangoproject-ha/assets/92378146/f3aacfae-a960-4719-b918-d9ca6f4b230f">
+<img width="935" alt="database" src="https://github.com/EcePekmezci/djangoproject-ha/assets/92378146/cf01d4b7-2245-49cd-be50-3098a8415c86">
+
 
 
